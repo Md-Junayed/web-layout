@@ -1,0 +1,383 @@
+*{
+	margin: 0;
+}
+.container{
+     width:1140px;
+     margin:0 auto;
+     overflow: hidden;
+}
+.logo{
+	width:30%;
+	float:left;
+}
+.logo img{
+    width: 150px;
+    display: block;
+    margin:0px 0px;
+ }
+.menu-bar{
+	 width: 50%;
+    float: left;
+} 
+   
+nav ul {
+    list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 40px 13px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 108%;
+	color: #161616;
+}
+
+.social-icon{
+   width: 20%;
+    float: left;
+}
+.social-icon ul{
+	list-style: none;
+}
+.social-icon ul li{
+     display: inline-block; 
+     margin: 40px 5px;
+}
+.hero{
+    background: url(../img/finance.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    background-attachment: fixed;
+}
+.hero-one{
+    background-color: #f1eaea6b;
+    text-align: center;
+    width: 50%;
+    padding: 100px 5px;
+    margin: 100px 0px;
+}
+.hero-one h1 {
+    font-size: 62px;
+    margin: 10px auto;
+    margin-top: -32px;
+    margin-bottom: -20px;
+}
+.hero-one p {
+    font-size: 21px;
+    padding: 2px;
+    margin: 28px auto;
+}
+.hero-one ul {
+    list-style: none;
+}
+.hero-one ul li {
+    display: inline-block;
+}
+.hero-one ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px;
+    margin: 27px;
+    border-radius: 6px;
+}
+.one {
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+.fa.fa-check {
+    font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 55px;
+    background-color: #6879D4;
+}
+.one h1 {
+    margin: 10px auto;
+    padding: 10px;
+}
+.one p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.one a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.two {
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+.fa.fa-map-marker {
+    font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px 34px;
+    background-color: red;
+    color: white;
+    border-radius: 60px;
+    background-color: #009688;
+}
+.two h1 {
+    margin: 10px auto;
+    padding: 10px;
+}
+.two p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.two a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.three {
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+.fa.fa-money {
+    font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 55px;
+    background-color: #4CAF50;
+}
+.three h1 {
+    margin: 10px auto;
+    padding: 10px;
+}
+.three p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.three a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.four {
+    width: 25%;
+    float: left;
+    margin: 50px auto;
+    text-align: center;
+}
+.fa.fa-user-plus {
+    font-size: 50px;
+    margin: 0px 99px;
+    padding: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 55px;
+    background-color: #97E268;
+}
+.four h1 {
+    margin: 10px auto;
+    padding: 10px;
+}
+.four p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.four a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.para-one {
+    width: 35%;
+    float: left;
+    background-color: #B7CCD3;
+    margin: 20px;
+    padding: 60px;
+}
+.para-one h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.para-one ul {
+    list-style: none;
+    padding: 7px;
+}
+.para-one ul li {
+    font-size: 19px;
+    padding: 15px;
+}
+.para-one a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.para-two {
+    width: 35%;
+    float: left;
+    background-color: #B7CCD3;
+    margin: 20px;
+    padding: 60px;
+}
+.para-two h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.para-two ul {
+    list-style: none;
+    padding: 7px;
+}
+.para-two ul li {
+    font-size: 19px;
+    padding: 15px;
+}
+.para-two a {
+    text-decoration: none;
+    color: white;
+    background-color: #16da16;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.blg h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #095169;
+    margin: 10px;
+    padding: 10px;
+}
+.blg-one {
+    width: 40%;
+    float: left;
+}
+.blg-one h2 {
+    padding: 10px;
+    font-size: 24px;
+    color: #095199;
+}
+.blg-one p {
+    padding: 10px;
+}
+button {
+    color: white;
+    background-color: #16da16;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+.blg-two {
+    width: 40%;
+    float: left;
+    margin-left: 189px;
+}
+.blg-two h2 {
+    padding: 10px;
+    font-size: 24px;
+    color: #095199;
+}
+.blg-two p {
+    padding: 10px;
+}
+.achivement {
+    background-color: silver;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 233px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.info {
+    text-align: center;
+    font-size: 31px;
+}
+.info h6 {
+    padding: 7px;
+}
+.reating {
+    margin: 20px 0px;
+}
+.rtg {
+    text-align: center;
+    font-size: 25px;
+}
+.fa-star-o:before {
+    content: "\f006";
+}
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+    content: "\f123";
+}
+.fa.fa-star-o {
+    color: white;
+    background-color: #16da16;
+    padding: 10px;
+    margin: 0px;
+}
+.fa.fa-star-half-o {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+.rtg ul {
+    list-style: none;
+    padding: 10px;
+}
+.rtg p {
+    font-size: 20px;
+}
+.rtg ul li {
+    display: inline-block;
+}
+.mntn {
+    background-color: #808080;
+    padding: 50px;
+    height: 200px;
+    width: 100%;
+}
+.mntn h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.mtn-one img {
+    width: 200px;
+}
+.mtn-one {
+    width: 20%;
+    float: left;
+}
+footer {
+    padding: 115px;
+    background-color: #052D3A;
+}
+.footer-up {
+    width: 600px;
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+}
+.footer-one {
+    width: 50%;
+    float: left;
+}
+.footer-one ul {
+    list-style: none;
+}
